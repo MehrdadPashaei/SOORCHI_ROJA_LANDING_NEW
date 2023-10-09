@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   box-sizing: border-box;
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: VazirMatnRegular;
+    src: url("../fonts/Vazirmatn-Regular.woff2") format('woff2');
+}
+@font-face{
+    font-family: 'VazirMatnMedium';
+    src: url("../fonts/Vazirmatn-Medium.woff2") format('woff2');
+}
+@font-face{
+    font-family: 'VazirMatnBold';
+    src: url("../fonts/Vazirmatn-Bold.woff2") format('woff2');
+}
+
+
+
+ /*Define your gradient here - use online tools to find a gradient matching your branding*/
+.gradient {
+    background: linear-gradient(90deg, #ffffff 0%, #fc67fa 50%, #f8017c 100%);
+}
+.gradientLtr {
+    background: linear-gradient(90deg, #f8017c 0%, #fc67fa 50%, #ffffff 100%);
+}
+.new-shadow{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.text {
+    text-transform: uppercase;
+    padding-bottom: 20px ;
+    font-family: VazirMatnBold,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.text-shadow{
+
+    font-family: VazirMatnBold,sans-serif;
+    font-weight: bold;
+    color: #121212;
+    text-align: center;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
+    0px -4px 10px rgba(255,255,255,0.3);
+
+}
